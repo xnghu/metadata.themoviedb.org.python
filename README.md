@@ -1,6 +1,6 @@
 ## The Movie Database Python scraper for Kodi
 
-This is early work on a Python movie scraper for Kodi.
+This is early work on a Python movie scraper for Kodi. XNGHU mod to set include_adult=true :)
 
 ### Manual search by IMDB / TMDB ID
 When manually searching you can enter an IMDB or TMDB ID to pull up an exact movie result.
