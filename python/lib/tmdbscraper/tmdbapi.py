@@ -55,6 +55,11 @@ def search_movie(query, year=None, language=None):
     xbmc.log('using title of %s to find movie' % query, xbmc.LOGDEBUG)
     theurl = SEARCH_URL
     params = _set_params(None, language)
+    
+    ###XNGHU's MOD
+    params['include_adult'] = 'true'
+    ########
+    
     params['query'] = query
     if year is not None:
         params['year'] = str(year)
