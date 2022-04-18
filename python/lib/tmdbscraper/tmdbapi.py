@@ -56,7 +56,7 @@ def search_movie(query, year=None, language=None):
     theurl = SEARCH_URL
     params = _set_params(None, language)
     
-    ###XNGHU's MOD
+    ########   XNGHU's MOD   ########
     params['include_adult'] = 'true'
     ########
     
